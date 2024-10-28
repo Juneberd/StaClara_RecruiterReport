@@ -1,6 +1,6 @@
 # Recruitment Analysis and Reporting Dashboard
 
-![RecruitmentDashboard](StaClara_RecruiterReport/assets/dashboard.png)
+![RecruitmentDashboard](assets/dashboard.png)
 
 This project aims to analyze recruitment data to provide insights into recruiter performance, applicant distribution, and time-to-hire metrics. Using Power BI, various interactive dashboards have been created to help recruitment teams optimize their processes and improve hiring efficiency. Below are the key components of the dashboard and the reports generated, as well as instructions for replicating the analysis.
 
@@ -10,24 +10,39 @@ This project aims to analyze recruitment data to provide insights into recruiter
    - **Objective:** Display the number of applicants each recruiter is assigned, segmented by different stages in the recruitment process, such as applied, interview, offer, and hired.
    - **Metrics Included:** Number of applicants at each stage, recruiter breakdown, and totals.
    - **Visualizations:** <br>
+   
   ![Vis_1](assets/Visualization_1.png)
    "Applicants Across Different Stages For Each Recruiter": A stacked bar chart that visualizes the distribution of applicants across various stages for each recruiter, such as Screening, Phone Interview, Qualifier, Trade Test, Job Offer, and Hired. <br>
-"Average Time Applicant Spent on Each Stage": A line chart showing the average time applicants spend in each recruitment stage, helping to identify potential bottlenecks in the process. Different colored lines represent stages like Screening, Phone Interview, Qualifier, Trade Test, and Hired.
+
+   ![Vis_2](assets/Visualization_2.png)
+   "Average Time Applicant Spent on Each Stage": A line chart showing the average time applicants spend in each recruitment stage, helping to identify potential bottlenecks in the process. Different colored lines represent stages like Screening, Phone Interview, Qualifier, Trade Test, and Hired.
 
 ### 2. Recruiter Performance Comparison
    - **Objective:** Compare recruiter performance in terms of the number of applicants handled and the progression percentage to each hiring stage.
-   - **Metrics Included:** Applicants handled, progression rate to each stage (e.g., Screening, Interview, Trade Test, Offer).
-   - **Visualizations:** Heatmaps and progression bars to visualize recruiter performance metrics.
+   - **Metrics Included:** Number of applicants handled, and the progression rate for each stage, including Screening, Phone Interview, Qualification, Trade Test, Offer, and Hired.
+   - **Visualizations:** <br>
+ 
+![Vis_3](assets/Visualization_3.png)
+   "Recruiter Performance: Applicant Progression by Stage": A 100% stacked bar chart that shows the distribution of applicants across different stages for each recruiter. This visualization helps identify the proportion of applicants advancing through various stages, providing insights into each recruiter's effectiveness in progressing candidates through the hiring process.
 
 ### 3. Distribution of Applicants Across Recruiters
    - **Objective:** Identify if there is an uneven distribution of applicants across recruiters, highlighting any disparities.
-   - **Metrics Included:** Percentage distribution of applicants per recruiter.
-   - **Visualizations:** Pie charts and horizontal bar charts displaying applicant distribution.
+   - **Metrics Included:** Percentage distribution of applicants handled by each recruiter.
+   - **Visualizations:** <br>
+   
+   ![Vis_4](assets/Visualization_4.png)
+   "Applicant Distribution by Recruiter": A pie chart that shows the proportion of applicants assigned to each recruiter. This helps visualize whether certain recruiters are handling significantly more or fewer applicants compared to others.
 
 ### 4. Applicant-to-Hire Conversion Rate Over Time
    - **Objective:** Track and analyze applicant-to-hire conversion rates for each recruiter over a specific period.
-   - **Metrics Included:** Conversion rate calculations segmented by quarters or months, trends, and seasonal variations.
-   - **Visualizations:** Line charts showing conversion rate trends over time.
+   - **Metrics Included:** Conversion rate calculations segmented by quarters or months, showing trends and any seasonal variations in the hiring process.
+   - **Visualizations:** <br>
+
+![Vis_5](assets/Visualization_5.png)
+   "Applicant-to-Hire Conversion Rate by Recruiter Over Time (Quarterly)": A line chart that illustrates the trends in conversion rates for each recruiter, broken down by quarters. This visualization helps identify patterns in recruiter effectiveness and potential seasonal impacts on hiring outcomes.
+
+![Vis_6](assets/Visualization_6.png)
+   "Recruiter Performance: Average Time to Hire Breakdown by Stage": A line and clustered column chart that shows the average time it takes for recruiters to progress applicants through each stage of the hiring process. This provides additional context for understanding how the time to hire may affect conversion rates.
 
 ### 5. Average Time to Hire
    - **Objective:** Calculate and display the average time to hire for each recruiter, broken down by each recruitment stage.
